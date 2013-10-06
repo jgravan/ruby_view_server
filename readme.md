@@ -42,6 +42,7 @@ Origin refers to the place where you cloned the code from (github) and master re
 
 Once you're done with the homework and it has been committed to your laptop, push it to your fork on Github. Then open a pull request. Your assignment will be graded from this pull request.
 
+## Completed this section ---------------------->
 
 ## Erb
 
@@ -57,6 +58,7 @@ ERB stands for Embedded RuBy. It is useful to use for embedding ruby code in htm
     puts template.result(binding)
     # => <h2>RICHARD</h2>
 
+## Completed this section ------------------>
 
 The flow for generating ruby powered html generally works like this. First we generate a document that is written in a html that has erb in it. These files typically have the extension `.html.erb`. We then read in the document, parse the erb and then we have fully valid html. We can do whatever we like with that such as write it to a static file or serve it dynamically with a server.
 
@@ -68,6 +70,8 @@ Erb blocks without the equals will not print out `<% %>` but will still be evalu
 In the terminal you can run
 
     $ ruby erb_example.rb
+
+## Completed this section-------------->
 
 Homework:
 
