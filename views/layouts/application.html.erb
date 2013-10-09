@@ -8,8 +8,18 @@
     <h1>You're using a layout</h1>
     <p>
       <h3> this is my header</h3>
-      <p><%= link_to('This is a link to joey g', 'http://www.google.com/') %></p>
+      <p><%= link_to('This is a link to huh', 'http://www.google.com/') %></p>
       <a href='me.html'>Me</a>
+      <% if @request.query['first_name'] && !@request.query['first_name'].empty? %>
+        Hello There <%= @request.query['first_name'] %>
+      <% else %>
+       Enter thy name!
+      <% end %>
+
+      <form method='post' action="<%= @request.path %>">
+            First name: <input type="text" name="first_name" placeholder='first name'/><br />
+            <input type="submit" value="Submit" />
+        </form>
 
     </p>
     <hr />
