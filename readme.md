@@ -83,6 +83,8 @@ If you get errors try re-running the generator and reading the error messages. Y
 
 Commit the results to git
 
+## completed this section ----------->  
+
 ## 2) Generate HTML with Ruby
 
 In the terminal you can run
@@ -94,6 +96,8 @@ This will loop through all the files in the `views` directory, parse their erb a
 Run the generator and drag a page from the `public` directory to your browser, it should render.
 
 homework:
+
+## Completed this section ------------->
 
 Add another file to the `/views` directory with your name. Add some personalized content directly to the file. Pretend this is geocities and you're making a home-page. Try using different tags such as `<div>`, `<p>`, `<span>`, or look up tags to use on w3c.
 
@@ -110,6 +114,8 @@ After each change, you can run the generator and open this page in your browser.
 If you get errors try re-running the generator and reading the error messages. You can add debugging `puts` statements in your view or the script to help you figure out what is going on.
 
 Commit the results to git
+
+## Completed this secution --------------->
 
 ## 3) Use a Layout to Add Content to All Pages
 
@@ -156,6 +162,8 @@ Add some links to your template using the link_to function you added to the temp
 If you get errors try re-running the generator and reading the error messages. You can add debugging `puts` statements in your view or the script to help you figure out what is going on.
 
 Commit the results to git
+
+## compeled this section ---------------->
 
 ## 4) Simple server
 
