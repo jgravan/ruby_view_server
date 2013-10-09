@@ -163,7 +163,7 @@ If you get errors try re-running the generator and reading the error messages. Y
 
 Commit the results to git
 
-## compeled this section ---------------->
+## compeled this section ----------------->
 
 ## 4) Simple server
 
